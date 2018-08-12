@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+.container-fluid{
+    width: 100%;
+    height: 613px;
+    background: url("../img/beijing.jpg") no-repeat center;
+    background-size: 1349px 613px;
+    padding:20px 30px 0 30px;
+}
+.top ul{
+    width:100%;
+    height: 31px;
+    margin-top:11px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+ul>li a{
+    color: #ffffff;
+    line-height: 31px;
+    font-weight: bold;
+    text-align: center;
+}
+ul>li a:hover{
+    border-bottom: 1px solid #fff;
+    color: white;
+    text-decoration: none;
+}
+main>h1{
+    height: 59px;
+    /*font-size: 59px;*/
+    line-height: 59px;
+    color: white;
+    text-align: center;
+    margin-top: 131px;
+}
+main>i{
+    height: 15px;
+    font-size: 15px;
+    line-height: 15px;
+    color: #00ffff;
+    font-style:normal;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+}
+.icon{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.icon>li{
+    height: 62px;
+    width: 62px;
+    margin: 1px 2px 2px 1px;
+    background: url("../img/icon.png") no-repeat -1px;
+}
+.icon>li:nth-child(2){
+    background: url("../img/icon.png") no-repeat -129px;
+}
+.icon>li:nth-child(3){
+    background: url("../img/icon.png") no-repeat -255px;
+}
+.icon>li:nth-child(4){
+    background: url("../img/icon.png") no-repeat -319px;
+}
+main>div{
+    width:55px;
+    height: 55px;
+    border-radius: 50%;
+    margin: 88px auto;
+    border: 1px solid #fff;
+}
+.icon-arrowdown{
+    font-size:30px;
+    color: white;
+    display: block;
+    line-height: 55px;
+    text-align: center;
+    animation: translateY 3s infinite;
+}
+@keyframes translateY{
+    from{
+        color: white;
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(20px);
+        color: rgba(255,255,255,0.5);
+    }
+}
+.produce{
+    width: 100%;
+    /*height: 568px;*/
+    background: #d3dbe1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigbox{
+    width:100%;
+    /*height: 368px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: url("../img/timg.jpg") no-repeat center;
+    background-size: 300px 300px;
+    animation: rotate 2s;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+.square{
+    width: 762px;
+    height: 368px;
+    border-radius:20px;
+    background: greenyellow;
+    padding: 20px 20px;
+}
+section span{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+/*个人作品开始*/
+.show{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    background:rgba(185,176,182,0.3) ;
+}
+.word{
+    height: 34px;
+    font-size: 34px;
+    line-height: 34px;
+    color: #000;
+    text-align: center;
+    margin-top: 50px;
+}
+main ul{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+}
+.first{
+    height: 592px;
+    background: url("../img/iphone_x_a11_large.jpg") no-repeat center;
+    background-size: 1262px 580px;
+    text-align: center;
+    margin-top: 12px;
+}
+footer{
+    width: 100%;
+    height: 586px;
+    background:rgba(16,59,91,0.6);
+    overflow: hidden;
+}
+footer>h1{
+    height: 49px;
+    color: #fff;
+    margin-top: 142px;
+    text-align: center;
+    font-weight: bold;
+}
+.tel{
+    height: 22px;
+    font-size: 22px;
+    color:#fff;
+    text-align: center;
+    margin-top: 60px;
+}
+footer span{
+    color: #000;
+}
+.email{
+    height: 23px;
+    font-size: 23px;
+    color:white;
+    text-align: center;
+    margin-top: 15px;
+}
+footer>ul>li:nth-child(5){
+    background: url("../img/icon.png") no-repeat -383px;
+}
+/*个人作品结束*/
+@media screen and (min-width: 768px){
+    .square{
+        width: 768px;
+        height: 246px;
+    }
+    .produce{
+        height: 868px;
+    }
+    main>h1{
+        font-size: 30px;
+    }
+    .first{
+        height: 398px;
+        background: url("../img/iphone_x_a11_small.jpg") no-repeat center;
+        background-size: 736px 548px;
+    }
+    footer>h1{
+        font-size: 29px;
+    }
+}
+@media screen and (min-width: 992px){
+    .square{
+        width: 520px;
+        height: 464px;
+    }
+    .produce{
+        height: 568px;
+    }
+    main>h1{
+        font-size: 59px;
+    }
+    .first {
+        height: 592px;
+        background: url("../img/iphone_x_a11_medium.jpg") no-repeat center;
+        background-size: 816px 490px;
+    }
+    footer>h1{
+        font-size: 49px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .square{
+        width: 762px;
+        height: 368px;
+    }
+    .produce{
+        height: 568px;
+    }
+    main>h1{
+        font-size: 59px;
+    }
+    .first{
+        height: 592px;
+        background: url("../img/iphone_x_a11_large.jpg") no-repeat center;
+        background-size: 1262px 580px;
+    }
+    footer>h1{
+        font-size: 49px;
+    }
+}
