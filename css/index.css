@@ -102,7 +102,7 @@ main>div{
 .produce{
     width: 100%;
     /*height: 568px;*/
-    background: #d3dbe1;
+    background:#fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,9 +119,9 @@ main>div{
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background: url("../img/lh.jpg") no-repeat center;
-    background-size: 300px 300px;
-    animation:scale 2s infinite;
+    background: url("../img/null6162030d9737d24a.jpg") no-repeat center;
+    background-size: 500px 500px;
+    animation:scale 2s;
 }
 @keyframes scale {
     from{
@@ -139,6 +139,7 @@ main>div{
     height: 368px;
     border-radius:20px;
     padding: 20px 20px;
+    background: lavender;
 }
 p{
     font-weight: bold;
@@ -146,13 +147,78 @@ p{
 
 section span{
     font-size: 20px;
-    color: #fff;
+    color: #333;
     text-align: center;
 }
+/*知识技能开始*/
+section{
+    width: 100%;
+    height: 100%;
+    /*background:rgba(185,176,182,0.3);*/
+}
+.skill{
+    width: 100%;
+    height: 500px;
+    /*background:#00ffff;*/
+}
+.character{
+    font-size: 34px;
+    color: #333;
+    text-align: center;
+}
+.kind{
+    width: 100%;
+    height: 300px;
+    /*background: red;*/
+    margin-top: 80px;
+}
+.kind1{
+    width: 526px;
+    height: 50px;
+    /*background:#ff6700;*/
+    float: left;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.name{
+    font-size: 15px;
+    color: #333;
+}
+.know{
+    width:526px;
+    height: 30px;
+    background: #ccc;
+    border-radius: 5px;
+}
+.know1{
+    width: 365px;
+    height: 30px;
+    background: #117d8b;
+    border-radius: 5px;
+}
+.know2{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    background: brown;
+}
+.know3{
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    background: deepskyblue;
+}
+.know4{
+    width: 280px;
+    height: 30px;
+    border-radius: 5px;
+    background: purple;
+}
+/*知识技能结束*/
 /*个人作品开始*/
 .show{
     width: 100%;
-    height: 100%;
+    height:100%;
     overflow: hidden;
     display: flex;
     background:rgba(185,176,182,0.3) ;
@@ -164,6 +230,7 @@ section span{
     color: #000;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 section ul{
     width: 100%;
