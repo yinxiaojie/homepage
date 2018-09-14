@@ -243,36 +243,33 @@ section{
 section ul{
     width:auto;
     height:100%;
-    display: flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
+    padding: 0 30px 20px 30px;
 }
 section ul li{
-    width: 250px;
-    height: 250px;
+    width: 260px;
+    height: 260px;
     background: url("../img/mi.jpg") no-repeat center;
     background-size: 300px 300px;
     position: relative;
     border-radius: 30px;
+    margin-right: 55px;
     margin-bottom: 20px;
-    margin-right: 20px;
+    float: left;
 }
 section ul li:nth-child(2){
-    width: 250px;
-    height: 250px;
     background: url("../img/og_wechat.png") no-repeat center;
-    background-size: 250px 250px;
+    background-size: 260px 260px;
     position: relative;
     border-radius: 30px;
 }
 section ul li:nth-child(3){
     background: url("../img/c94ba.png")no-repeat center;
-    background-size: 250px 250px;
+    background-size: 260px 260px;
     position: relative;
 }
 section ul li:nth-child(4){
     background: url("../img/aibox.jpg")no-repeat center;
-    background-size: 250px 250px;
+    background-size: 260px 260px;
     position: relative;
     border-radius: 30px;
 }
@@ -306,8 +303,8 @@ section ul li:nth-child(7){
     height: 50px;
     background: #A7B2B8;
     position: absolute;
-    top: 105px;
-    left: 100px;
+    top: 110px;
+    left: 105px;
     font-size: 20px;
     line-height: 25px;
     color: white;
@@ -315,7 +312,7 @@ section ul li:nth-child(7){
 .aibox{
     position: absolute;
     top: 170px;
-    left: 85px;
+    left: 90px;
 }
 .weather{
     position: absolute;
@@ -328,7 +325,8 @@ section ul li:nth-child(7){
 .firm{
     position: absolute;
     bottom: 0;
-    left: 85px;
+    top: 230px;
+    left: 90px;
 }
 footer{
     width: 100%;
